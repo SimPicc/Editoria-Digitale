@@ -70,16 +70,16 @@ Ecco alcuni esempi di personas:
 Studente di Storia all'Università Statale Di Milano.
 Passa le sue giornate tra università e il campo da basket, sua grande passione.
 
-**Valori**
+**Valori**:
 Vuole una vita dinamica e divisa tra sport e studio, cerca di essere il più presente possibile nelle attività che svolge e ama dare un'occhio al passato per imparare dalla storia.
 
-**Bisogni**
+**Bisogni**:
 Ha bisogno di compagnia per tutte le sue attività e ogni tanto di prendersi una pausa per ricaricare le energie
 
-**Desideri**
+**Desideri**:
 Vorrebbe avere sempre compagni da sfidare in una partita e condividere momenti di studio all'università
 
-**Scenario D'Uso**
+**Scenario D'Uso**:
 Per un esame universitario Mattia deve consegnare una relazione riguardo un momento sportivo che ha lasciato un segno nella storia del 900, cercando di essere il più preciso possibile con date, riferimenti e luoghi.
 Tra le varie ricerche sul web mette insieme del materiale e tramite il nostro prodotto può scegliere con cura che momento del 900 prendere in considerazione.
 
@@ -87,16 +87,16 @@ Tra le varie ricerche sul web mette insieme del materiale e tramite il nostro pr
 Ex atleta italiano.
 Passa le sue giornate con la famiglia e ogni tanto va nelle vecchie palestre e campi di atletica che frequentava per rivivere il passato.
 
-**Valori**
+**Valori**:
 Attualemente dedito alla famiglia e grande stimatore di chi inserisce lo sport nella sua vita quotidiana
 
-**Bisogni**
+**Bisogni**:
 Ha bisogno di essere presente per la famiglia in quanto in passato a causa dei suoi impegni sportivi era sempre lontano, ogni tanto ritorna nei posti dove si allenava per ricordare le imprese sportive
 
-**Desideri**
+**Desideri**:
 Vivere una vita tranquilla e vedere qualche suo nipote indossare la maglia della nazionale italiana in qualsiasi sport
 
-**Scenario D'uso**
+**Scenario D'uso**:
 Per ricordare le sue imprese sportive, o semplicemente per rivivere quei momenti, Carlo si circonda di libri e articoli riguardo gli anni in cui lui era in pista, dal 1964 al 1976.
 Acquista in maniera continuativa prodotti riguardo la storia dello sport.
 
