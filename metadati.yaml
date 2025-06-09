@@ -1,0 +1,77 @@
+gestione_documentale:
+  title: "The 1920 Olympics Games in Antwerp"
+  author: 
+    - "Dung Pham Thuy"
+  date: "2022-07-20"
+  abstract: "Olympics Games in Antwerp, Europeana."
+  lang: "en"
+  bibliography: "bibliografia.bib"
+  csl: "IEEE.csl"
+  document_class: "article"
+  input_files:
+    - "index(modificato).md"
+  output_formats:
+    - html
+    - epub
+    - pdf
+
+archiviazione:
+  dublin_core:
+    title: "The 1920 Olympics Games in Antwerp"
+    creator: 
+      - "Dung Pham Thuy"
+    subject: 
+      - "Olmpics"
+      - "Antwerp"
+    description: "Olympics Games in Antwerp, Europeana."
+    publisher: "Europeana"
+    contributor: 
+      - ""
+    date: "2022-07-20"
+    type: "Article"
+    format: "text/plain"
+    identifier: "DOI:10.1234/ia2024"
+    language: "en"
+    coverage: "Italia"
+    rights: "CC BY-NC 4.0"
+
+distribuzione:
+  onix:
+    title: "The 1920 Olympics Games in Antwerp"
+    contributor:
+      primary_author: "Dung Pham Thuy"
+      other_authors:
+        - ""
+    publisher: "Europeana"
+    publication_date: "2022-07-20"
+    audience: "Studenti, Appassionati"
+    format: 
+      type: "Digital"
+      file_format: "epub"
+    price:
+      amount: "0"
+      currency: "EUR"
+
+  schema_org:
+    "@context": "https://schema.org"
+    "@type": "Article"
+    name: "The 1920 Olympics Games in Antwerp"
+    author: 
+      - "@type": "Person"
+        name: "Dung Pham Thuy"
+    datePublished: "2022-07-20"
+    publisher: 
+      "@type": "Organization"
+      name: "Europeana"
+    genre: 
+      - "Sport"
+    language: "en"
+    inLanguage: "en"
+    format: "text/plain"
+
+wikipedia_metadata:
+  ICD-9-CM: "315.0e315.3"
+  MeSH: "D007859"
+  Specialità: 
+    - "Sport"
+  eMedicine: "1835883e915176"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage>
+    <Header>
+        <Sender>
+            <SenderName>Unknown Publisher</SenderName>
+        </Sender>
+    </Header>
+    <Product>
+        <Title>The 1920 Olympics Games in Antwerp | Europeana</Title>
+        <Author>Unknown Author</Author>
+        <ISBN>N/A</ISBN>
+        <Description>Europeana</Description>
+    </Product>
+</ONIXMessage>
