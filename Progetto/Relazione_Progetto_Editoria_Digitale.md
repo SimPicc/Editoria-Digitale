@@ -195,12 +195,6 @@ Grazie alle tecnologie usate si riducono di molto i tempi di gestione documental
 Anche gli errori si riducono notevolmente in quanto gli script usati sono pre-scritti e quindi già coontrollati.
 Grazie a queste tecnologie i canali di distribuzione possibili aumentano in quanto la disponibilità di formati è molto ampia e la qualità dei documenti può sempre migliorare in base alle necessità degli utenti e dei canali di distribuzione.
 
-### Confronto con lo stato dell'arte
-
-Può anche essere utile confrontare una versione ASIS del flusso di gestione, senza la tecnologia o le innovazioni proposte, e una TOBE che include la tecnologia e le innovazioni proposte dallo studente.
-
-  
-
 ### Limiti emersi
 
 Sono apparsi alcuni limiti nel prendere contenuti dal sito Europeana, in quannto alcune pagine non davano la possibilità di poter prendere informazioni tramite lo script python, la soluzione è stata scaricare la pagina html, convertirla in MarkDown e lavorare su quella.
