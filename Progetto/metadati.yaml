@@ -9,7 +9,7 @@ gestione_documentale:
   csl: "IEEE.csl"
   document_class: "article"
   input_files:
-    - "index(modificato).md"
+    - "index.md"
   output_formats:
     - html
     - epub
