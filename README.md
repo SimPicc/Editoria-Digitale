@@ -11,3 +11,10 @@ Il progetto è presentato in 3 formati:
 
 ## pdf
 non disponibile
+
+## Struttura
+Il progetto è stato realizzato utilizzando contenuti liberi presi da siti web com Wikipedi e Europeana.
+Le tecnologie usate sono Python, html, css, javascript, Pandoc, MarkDown.
+Il documento è presentato in formato html per le pagine web, in ePub per eventuali eBook, manca il formato pdf per un'eventuale stampa per problemi di conversione tramite Pandoc.
+Nella repository sono presenti tutti gli script usati, metadati e bibliografia.
+
