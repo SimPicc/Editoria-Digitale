@@ -55,8 +55,8 @@ rules = [
 ]
 
 # Percorsi ai file
-input_file = "index.md"   # File Markdown di input
-output_file = "index(modificato).md" # File Markdown modificato
+input_file = "The_Tailteann.md"   # File Markdown di input
+output_file = "The_Tailteann(modificato).md" # File Markdown modificato
 
 # Esecuzione dello script
 modify_markdown(input_file, output_file, rules)

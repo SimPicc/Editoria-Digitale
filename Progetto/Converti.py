@@ -40,7 +40,7 @@ def main():
     for format in output_formats:
         if format == 'pdf':
             output_file = 'Sport900.pdf'
-            convert_with_pandoc(input_files, output_file, yaml_file, pdf_engine="pdflatex")
+            convert_with_pandoc(input_files, output_file, yaml_file, pdf_engine="xelatex")
         elif format == 'html':
             output_file = 'Sport900.html'
             convert_with_pandoc(input_files, output_file, yaml_file)
