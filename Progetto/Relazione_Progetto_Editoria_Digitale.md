@@ -205,13 +205,13 @@ Può anche essere utile confrontare una versione ASIS del flusso di gestione, se
 
 Sono apparsi alcuni limiti nel prendere contenuti dal sito Europeana, in quannto alcune pagine non davano la possibilità di poter prendere informazioni tramite lo script python, la soluzione è stata scaricare la pagina html, convertirla in MarkDown e lavorare su quella.
 La conversione in ePub ha dato qualche problema estetico in quanto viene mantenuto un solo colore per tutto il testo.
-La conversione in pdf non è andata a buon fine per problemi riguardo la tipologia di engine per la conversione in pdf. 
+La conversione in pdf non ha mantenuto tutte le caratteristiche estetiche corrette. 
 
   
 
 ## Conclusioni
 
-Il risultato finale mostra un documento visibile tramite pagina web (formato hmtl) o eBook (formato ePub), non si è raggiunto il punto per la conversione in pdf in quanto per problemi di installazione o per problemi di visibilità la conversione in pdf non è andata a buon fine.
+Il risultato finale mostra un documento visibile tramite pagina web (formato hmtl), eBook (formato ePub) e pdf (per stampa).
 
   
 
