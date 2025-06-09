@@ -111,8 +111,8 @@ Il prodotto presenterà un modello di Lettura Non Lineare in quanti chi ne usufr
 
 ### Canali di distribuzione
 
-I canali di distribuzione possono essere principalmente il Web e Market Place dove chi vuole può leggere da una pagina web o acquistare un ePub.
-I formati saranno hmtl per le pagine web, ePub e pdf per la vendita diretta del prodotto.
+I canali di distribuzione possono essere principalmente il Web e Market Place dove chi vuole può leggere da una pagina web o acquistare un eBook.
+I formati saranno hmtl per le pagine web, ePub per eBook e pdf per la stampa diretta del prodotto.
 L'identità visuale del prodotto sarà semplice in quanto i contenuti saranno presentati tramite testi o immagini per mantenere l'aspetto storico degli argomenti, il tutto può essere arricchito con brevi video di mmomenti iconici della storia dello sport.
 Lo stile sarà formale per avere una descrizione degli argomenti il più chiara possibile.
 
@@ -120,16 +120,14 @@ Lo stile sarà formale per avere una descrizione degli argomenti il più chiara 
 
 ### Acquisizione dei contenuti
 
-L'acquisiozione dei contenuti per la creazione del prodotto editoriale è stata fatta da pagine web che mettono a disposizione fonti libere.
+L'acquisiozione dei contenuti per la creazione del prodotto editoriale è stata fatta tramite pagine web che mettono a disposizione fonti libere.
 Le pagine web utilizzate sono Wikipedia e Europeana.
 
 ### Gestione documentale
 
-Descrivere il *flusso di gestione documentale* definito per il progetto. Ad esempio, (i) la raccolta o produzione dei contenuti, (ii) la valutazione dei diritti, (iii) la trasformazione dei formati, (iv) la strutturazione dei contenuti, (v) l'applicazione dello stile grafico, (vi) la generazione dei metadati, (vii) la distribuzione dei contenuti. Nella descrizione del flusso considerare le fasi di revisione, controllo e approvazione che possono richiedere le diverse fasi.
-
 Il flusso di gestione documentale è diviso in varie fasi:
 - Sono stati acquisiti i vari contenuti dalle fonti citate prima, tutti con licenze libere
-- è stato creato il file html in cui sono stati inseriti i contenuti, alcuni contenuti sono stati presi da pagine wikipedia utilizzando lo script Python "take_sorgente.py", il file MarkDown dato in output è stato opportunamente modificato tramite lo script "modify_md.py", dalla stessa pagina sono stati presi metadati utilizzando lo script "get_metadata_from_Wikipedia.py", i contenuti ottenuti sono stati poi inseriti nel file html.
+- è stato creato il file html in cui sono stati inseriti i contenuti, alcuni contenuti sono stati presi da pagine wikipedia utilizzando lo script Python "take_sorgente.py", oppure scaricando la pagina html e poi convertita in MarkDown, il file MarkDown dato in output è stato opportunamente modificato tramite lo script "modify_md.py", dalla stessa pagina sono stati presi metadati utilizzando lo script "get_metadata_from_Wikipedia.py", i contenuti ottenuti sono stati poi inseriti nel file html.
 - Creazione del file metadati.yaml che è stato usato per la creazione degli schemi Onix e schema.org utilizzando lo script "CreaSchemi_da_yaml.py"
 - Il file html è stato convertito in MarkDown utilizzando Pandoc e tramite lo script "Converti.py" sono stati creati i formati ePub e pdf
 - I file sono stati modificati per avere un risultato estetico migliore.
@@ -160,7 +158,7 @@ dei file}
 
 Le tecnlogie utilizzate sono:
 - html per la pagina visibile sul web
-- MarkDown utilizzato come tramite per la conversione dei file, per alcune modifiche estetica
+- MarkDown utilizzato come tramite per la conversione dei file, per alcune modifiche estetiche
 - python utilizzato per le conversione, l'estrazione di contenuti e metadati
 - Pandoc utilizzato tramite python per le conversioni dei formati
 I formati disponibili per questo contenuto sono html per il web, ePub per gli eBook e pdf per un'eventuale stampa
