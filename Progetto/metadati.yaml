@@ -1,9 +1,9 @@
 gestione_documentale:
-  title: "The 1920 Olympics Games in Antwerp"
+  title: "Evoluzione dello sport nel 900"
   author: 
-    - "Dung Pham Thuy"
-  date: "2022-07-20"
-  abstract: "Olympics Games in Antwerp, Europeana."
+    - "Simone Piccirillo"
+  date: "2025-06-09"
+  abstract: "Evoluzione dello sport nel 900."
   lang: "en"
   bibliography: "bibliografia.bib"
   csl: "IEEE.csl"
@@ -17,17 +17,17 @@ gestione_documentale:
 
 archiviazione:
   dublin_core:
-    title: "The 1920 Olympics Games in Antwerp"
+    title: "Evoluzione dello sport nel 900"
     creator: 
-      - "Dung Pham Thuy"
+      - "Simone Piccirillo"
     subject: 
-      - "Olmpics"
-      - "Antwerp"
-    description: "Olympics Games in Antwerp, Europeana."
-    publisher: "Europeana"
+      - "Sport"
+      - "1900"
+    description: "Evoluzione dello sport nel 900."
+    publisher: "Unimi"
     contributor: 
       - ""
-    date: "2022-07-20"
+    date: "2025-06-09"
     type: "Article"
     format: "text/plain"
     identifier: "DOI:10.1234/ia2024"
@@ -37,13 +37,13 @@ archiviazione:
 
 distribuzione:
   onix:
-    title: "The 1920 Olympics Games in Antwerp"
+    title: "Evoluzione dello sport nel 900"
     contributor:
-      primary_author: "Dung Pham Thuy"
+      primary_author: "Simone Piccirillo"
       other_authors:
         - ""
-    publisher: "Europeana"
-    publication_date: "2022-07-20"
+    publisher: "Unimi"
+    publication_date: "2025-06-09"
     audience: "Studenti, Appassionati"
     format: 
       type: "Digital"
@@ -55,14 +55,14 @@ distribuzione:
   schema_org:
     "@context": "https://schema.org"
     "@type": "Article"
-    name: "The 1920 Olympics Games in Antwerp"
+    name: "Evoluzione dello sport nel 900"
     author: 
       - "@type": "Person"
-        name: "Dung Pham Thuy"
-    datePublished: "2022-07-20"
+        name: "Simone Piccirillo"
+    datePublished: "2025-06-09"
     publisher: 
       "@type": "Organization"
-      name: "Europeana"
+      name: "Unimi"
     genre: 
       - "Sport"
     language: "en"
