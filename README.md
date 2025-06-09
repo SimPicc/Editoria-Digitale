@@ -5,7 +5,7 @@ Il progetto è presentato in 3 formati:
 
 ## HTML
  - Apri la [pagina Web](https://htmlpreview.github.io/?https://github.com/SimPicc/Editoria-Digitale/blob/main/Progetto/index.html)
- - [prova](https://SimPicc.github.io/Editoria-Digitale/index.html)
+ - [prova](https://SimPicc.github.io/Editoria-Digitale/Progetto/index.html)
 
 ## ePub
  - Scarica l'[eBook](https://github.com/SimPicc/Editoria-Digitale/raw/main/Progetto/Sport900.epub)
