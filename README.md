@@ -24,7 +24,7 @@ Nella repository sono presenti tutti gli script usati, metadati e bibliografia.
 graph LR
     A[Traccia Progetto] --> B(Estrazione contenuti
 dalle fonti, in maniera diretta e tramite script Python)
-    A --> C{Estrazione metdati da pagine Wiikipedia utilizzando script Python}
+    A --> C{Estrazione metadati da pagine Wiikipedia utilizzando script Python}
     B --> D(Modifiche al file MarkDown tramite script Python)
     D --> E(Aggiunta dettagli
 estetici)
