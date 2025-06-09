@@ -10,7 +10,7 @@ Il progetto è presentato in 3 formati:
  - Scarica l'[eBook](https://github.com/SimPicc/Editoria-Digitale/raw/main/Progetto/Sport900.epub)
 
 ## pdf
- - Scarica il[pdf](https://github.com/SimPicc/Editoria-Digitale/raw/main/Progetto/Sport900.pdf)
+ - Scarica il [pdf](https://github.com/SimPicc/Editoria-Digitale/raw/main/Progetto/Sport900.pdf)
 
 ## Struttura
 Il progetto è stato realizzato utilizzando contenuti liberi presi da siti web com Wikipedi e Europeana.
