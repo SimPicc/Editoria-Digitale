@@ -149,7 +149,7 @@ attitudes.
 
 <div>
 
-he sporting championships we enjoy now have long, historical roots. The
+The sporting championships we enjoy now have long, historical roots. The
 modern Olympic Games were inspired by the Olympics of ancient Greece,
 reviving and valorising competitions from a time before the industrial
 and modern world. In Ireland, the Tailteann Games can be seen to follow
