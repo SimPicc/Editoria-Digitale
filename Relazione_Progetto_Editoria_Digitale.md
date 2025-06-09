@@ -25,7 +25,7 @@ csl: IEEE.csl
 
   
 
-![Logo UNIMI](./logo/minerva.jpg){width=100px height=100px}
+![Logo UNIMI](minerva.jpg)
 
   
 
@@ -65,79 +65,92 @@ Il tema principale è l'evoluzione dello sport nel 900, il documento mostra test
 
 I destinatari possono essere degli studenti in cerca di materiale per dei progetti, docenti o appassionati di sport.
 Ecco alcuni esempi di personas:
-Personas 1:  Mattia Alessi, 20 anni, vive a Milano.
-Studente in Storia all'Università Statale Di Milano.
-Passa le sue giornate tra università e il campo da tennis, sua grande passione.
 
-Valori
- Vuole una vita dinamica e divisa tra sport e studio, cerca di essere il più presente possibile nelle attività che svolge e ama dare un'occhio al passato per imparare dalla storia.
+**Personas 1**:  Mattia Alessi, 20 anni, vive a Milano.
+Studente di Storia all'Università Statale Di Milano.
+Passa le sue giornate tra università e il campo da basket, sua grande passione.
 
-Bisogni
+**Valori**
+Vuole una vita dinamica e divisa tra sport e studio, cerca di essere il più presente possibile nelle attività che svolge e ama dare un'occhio al passato per imparare dalla storia.
+
+**Bisogni**
 Ha bisogno di compagnia per tutte le sue attività e ogni tanto di prendersi una pausa per ricaricare le energie
 
-Desideri
-Vorrebbe avere sempre compagni da sfidare in una partita e rilassarsi leggendo un libro sulla storia
+**Desideri**
+Vorrebbe avere sempre compagni da sfidare in una partita e condividere momenti di studio all'università
+
+**Scenario D'Uso**
+Per un esame universitario Mattia deve consegnare una relazione riguardo un momento sportivo che ha lasciato un segno nella storia del 900, cercando di essere il più preciso possibile con date, riferimenti e luoghi.
+Tra le varie ricerche sul web mette insieme del materiale e tramite il nostro prodotto può scegliere con cura che momento del 900 prendere in considerazione.
+
+**Personas 2**: Carlo Rossi, 86 anni, vive a Milano.
+Ex atleta italiano.
+Passa le sue giornate con la famiglia e ogni tanto va nelle vecchie palestre e campi di atletica che frequentava per rivivere il passato.
+
+**Valori**
+Attualemente dedito alla famiglia e grande stimatore di chi inserisce lo sport nella sua vita quotidiana
+
+**Bisogni**
+Ha bisogno di essere presente per la famiglia in quanto in passato a causa dei suoi impegni sportivi era sempre lontano, ogni tanto ritorna nei posti dove si allenava per ricordare le imprese sportive
+
+**Desideri**
+Vivere una vita tranquilla e vedere qualche suo nipote indossare la maglia della nazionale italiana in qualsiasi sport
+
+**Scenario D'uso**
+Per ricordare le sue imprese sportive, o semplicemente per rivivere quei momenti, Carlo si circonda di libri e articoli riguardo gli anni in cui lui era in pista, dal 1964 al 1976.
+Acquista in maniera continuativa prodotti riguardo la storia dello sport.
 
   
   
 
 ### Modello di fruizione
 
-Indicate i requisiti di accettazione che dovranno essere soddisfatti per raggiungere i destinatari. Quali modelli di lettura e di fruizione consideriamo più efficaci per i nostri destinatari? Quali standard consideriamo come riferimento? Quali aspetti di innovazione possiamo proporre? Nella qualità dei contenuti o nel processo di fruizione?
+Il prodotto presenterà un modello di Lettura Non Lineare in quanti chi ne usufruisce potrà saltare tra le varie sezione tramite l'indice, non è importante dover passare tra le varie sezioni per arrivare a quella voluta in quanto vengono trattati diversi periodi e diversi argomenti quindi si potrà arrivare direttamente all'arogmento voluto
 
   
 
 ### Canali di distribuzione
 
-Presentare i canali di distribuzione che si intendono raggiugnere e i formati dati richiesti da ogni canale. Esempi di canali sono: (i) Web, (ii) Social, (iii) Market place, (iv) Intranet. Esempi di formati. (i) Word, (ii) ePub, (iii) CBZ, (iv) PDF, (v) WebBook.
-
-Proporre alcuni accenni relativi all'identità visuale e alle regole tipografiche o di stile che si intendono seguire. Nel settore esistono classi di documento standard? Dati gli obiettivi è importante trasmettere un senso di adesione a modelli già conosciuti o un senso di innovazione? Lo stile sarà orientato verso un'espressione formale o informale?
-
-  
+I canali di distribuzione possono essere principalmente il Web e Market Place dove chi vuole può leggere da una pagina web o acquistare un ePub.
+I formati saranno hmtl per le pagine web, ePub e pdf per la vendita diretta del prodotto.
+L'identità visuale del prodotto sarà semplice in quanto i contenuti saranno presentati tramite testi o immagini per mantenere l'aspetto storico degli argomenti, il tutto può essere arricchito con brevi video di mmomenti iconici della storia dello sport.
+Lo stile sarà formale per avere una descrizione degli argomenti il più chiara possibile.
 
 ## Processo di Produzione
 
-  
-
 ### Acquisizione dei contenuti
 
-Descrivere le fonti che saranno utilizzate nella costruzione del prodotto editoriale. Nella scelta delle fonti valutare il costo di acquisizione: (i) disponibili come fonti libere, (ii) generabili automaticamente, (iii) richiedono un lavoro di redazione manuale.
-
-  
+L'acquisiozione dei contenuti per la creazione del prodotto editoriale è stata fatta da pagine web che mettono a disposizione fonti libere.
+Le pagine web utilizzate sono Wikipedia e Europeana.
 
 ### Gestione documentale
 
-  
-
 Descrivere il *flusso di gestione documentale* definito per il progetto. Ad esempio, (i) la raccolta o produzione dei contenuti, (ii) la valutazione dei diritti, (iii) la trasformazione dei formati, (iv) la strutturazione dei contenuti, (v) l'applicazione dello stile grafico, (vi) la generazione dei metadati, (vii) la distribuzione dei contenuti. Nella descrizione del flusso considerare le fasi di revisione, controllo e approvazione che possono richiedere le diverse fasi.
+
+Il flusso di gestione documentale è diviso in varie fasi:
+- Sono stati acquisiti i vari contenuti dalle fonti citate prima, tutti con licenze libere
+- è stato creato il file html in cui sono stati inseriti i contenuti, alcuni contenuti sono stati presi da pagine wikipedia utilizzando lo script Python "take_sorgente.py", il file MarkDown dato in output è stato opportunamente modificato tramite lo script "modify_md.py", dalla stessa pagina sono stati presi metadati utilizzando lo script "get_metadata_from_Wikipedia.py", i contenuti ottenuti sono stati poi inseriti nel file html.
+- Creazione del file metadati.yaml che è stato usato per la creazione degli schemi Onix e schema.org utilizzando lo script "CreaSchemi_da_yaml.py"
+- Il file html è stato convertito in MarkDown utilizzando Pandoc e tramite lo script "Converti.py" sono stati creati i formati ePub e pdf
+- I file sono stati modificati per avere un risultato estetico migliore.
 
   
 
 ```mermaid
 
 graph LR
-
-A[Square Rect] -- Link text --> B((Circle))
-
-A --> C(Round Rect)
-
-B --> D{Rhombus}
-
-C --> D
-
-```
-
-```mermaid
-
-flowchart LR
-
-A[Hard edge] -->|Link text| B(Round edge)
-
-B --> C{Decision}
-
-C -->|One| D[Result one]
-
-C -->|Two| E[Result two]
+    A[Traccia Progetto] --> B(Estrazione contenuti
+dalle fonti, in maniera diretta e tramite script Python)
+    A --> C{Estrazione metdati da pagine Wiikipedia utilizzando script Python}
+    B --> D(Modifiche al file MarkDown tramite script Python)
+    D --> E(Aggiunta dettagli
+estetici)
+    C --> F(Creazione schema.org e
+ONIX)
+    E --> G(Conversioni in formati ePub e pdf)
+    G --> H{Caricamento finale
+dei file}
+    F --> H
 
 ```
 
@@ -145,10 +158,12 @@ C -->|Two| E[Result two]
 
 ### Tecnologie adottate
 
-  
-
-Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.
-
+Le tecnlogie utilizzate sono:
+- html per la pagina visibile sul web
+- MarkDown utilizzato come tramite per la conversione dei file, per alcune modifiche estetica
+- python utilizzato per le conversione, l'estrazione di contenuti e metadati
+- Pandoc utilizzato tramite python per le conversioni dei formati
+I formati disponibili per questo contenuto sono html per il web, ePub per gli eBook e pdf per un'eventuale stampa
   
 
 | |Scenario 1 |Scenario 2 |
@@ -157,15 +172,17 @@ Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo
 
 |Markdown |`'Isn't this fun?'` |'Isn't this fun?' |
 
-|XSLT |`"Isn't this fun?"` |"Isn't this fun?" |
+|html |`"Isn't this fun?"` |"Isn't this fun?" |
 
-|ePud |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|ePub |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+|pdf |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
   
 
 ### Esecuzione del flusso
 
-Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.
+Tutti i fle utilizzati per il progetto sono disponibili nella repository di Github
 
   
 
@@ -176,13 +193,11 @@ Allegare, possibilmente attraverso il riferimento ad un repository documentale, 
 
 ### Valutazione del flusso di produzione
 
-  
-
-Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di (i) riduzione dei tempi di gestione documentale, (ii) riduzione degli errori, (iii) miglioramento della qualità dei documenti, (iv) miglioramento del livello di accettazione della tecnologia, (v) raggiungimento di nuovi canali di distribuzione, (vi) soddisfacimento di nuovi scenari d'uso.
+Grazie alle tecnologie usate si riducono di molto i tempi di gestione documentale in quanto le informazioni dalle sorgenti vengono prese in maniera diretta dagli script python, e lo stesso vale per i metadati, le varie conversioni poi vengono fatte tramite un solo script.
+Anche gli errori si riducono notevolmente in quanto gli script usati sono pre-scritti e quindi già coontrollati.
+Grazie a queste tecnologie i canali di distribuzione possibili aumentano in quanto la disponibilità di formati è molto ampia e la qualità dei documenti può sempre migliorare in base alle necessità degli utenti e dei canali di distribuzione.
 
 ### Confronto con lo stato dell'arte
-
-  
 
 Può anche essere utile confrontare una versione ASIS del flusso di gestione, senza la tecnologia o le innovazioni proposte, e una TOBE che include la tecnologia e le innovazioni proposte dallo studente.
 
@@ -190,22 +205,19 @@ Può anche essere utile confrontare una versione ASIS del flusso di gestione, se
 
 ### Limiti emersi
 
-  
-
-È importante sottolineare i limiti emersi. Come l'impossibilità di accesso ad alcune tecnologie o fasi del flusso di gestione documentale, limiti nella automazione di alcune passi di trasformazione dei formati o di integrazione delle sorgenti
+Sono apparsi alcuni limiti nel prendere contenuti dal sito Europeana, in quannto alcune pagine non davano la possibilità di poter prendere informazioni tramite lo script python, la soluzione è stata scaricare la pagina html, convertirla in MarkDown e lavorare su quella.
+La conversione in ePub ha dato qualche problema estetico in quanto viene mantenuto un solo colore per tutto il testo.
+La conversione in pdf non è andata a buon fine per problemi riguardo la tipologia di engine per la conversione in pdf. 
 
   
 
 ## Conclusioni
 
-  
-
-Discutere i risultati ottenuti, verificando se gli obiettivi definiti dai casi d'uso siano pienamente o parzialmente raggiunti. Evidenziare gli aspetti nei quali si sono raggiunti i risultati più soddisfacenti e le limitazioni emerse.
+Il risultato finale mostra un documento visibile tramite pagina web (formato hmtl) o eBook (formato ePub), non si è raggiunto il punto per la conversione in pdf in quanto per problemi di installazione o per problemi di visibilità la conversione in pdf non è andata a buon fine.
 
   
 
 ## Bibliografia e sitografia
 
-  
-
-Elencare i riferimenti bibliografici e risorse online che hanno maggiormente contribuito alla realizzazione del progetto. Ad esempio [@sechi2010,@pantieri2021,@ceravolo2023]
+https://www.europeana.eu/en/themes/sport
+https://en.wikipedia.org/wiki/Camille_du_Gast
