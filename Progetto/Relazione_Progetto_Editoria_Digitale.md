@@ -180,7 +180,7 @@ I formati disponibili per questo contenuto sono html per il web, ePub per gli eB
 
 ### Esecuzione del flusso
 
-Tutti i fle utilizzati per il progetto sono disponibili nella repository di Github
+Tutti i fle utilizzati per il progetto sono disponibili nella repository di Github (https://github.com/SimPicc/Editoria-Digitale/tree/main?tab=readme-ov-file)
 
   
 
